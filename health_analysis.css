@@ -91,3 +91,76 @@ nav {
     height: 100px;
   }
   
+/* Center the form on the page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Form styling */
+.analysisForm {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.analysisForm h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.analysisForm div {
+  margin-bottom: 15px;
+}
+
+.analysisForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+.analysisForm input[type="text"],
+.analysisForm input[type="number"],
+.analysisForm select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.analysisForm button {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+/* Report box */
+#report {
+  margin-top: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+/* Gender radio buttons inline */
+.analysisForm .gender-group {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between options */
+}
+
+.analysisForm .gender-group label {
+  margin: 0;
+  font-weight: normal;
+}

@@ -19,7 +19,7 @@
       },
       {
         "name": "Diabetes",
-        "imagesrc":"diabeties.jpg",
+        "imagesrc":"https://socalregenclinic.com/wp-content/uploads/2023/10/diabetes-min.png",
         "symptoms": [
           "Frequent urination",
           "Increased thirst",
@@ -36,7 +36,7 @@
       },
       {
         "name": "High Blood Pressure",
-        "imagesrc":"blood_pressure.jpg",
+        "imagesrc":"https://metromedicalassociates.com/wp-content/uploads/2024/05/hypertension-management.png",
         "symptoms": [
           "Headaches",
           "Shortness of breath",
